@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path="/MonoDevelop/Ide/Commands/Project">
+		<Command id="NupkgLicenseTool.Commands.LicenseCheckCommands.CheckLicense" _label="Check License" defaultHandler="NupkgLicenseTool.Handlers.CheckLicenseHandler" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/MainMenu/Project">
+		<CommandItem id="NupkgLicenseTool.Commands.LicenseCheckCommands.CheckLicense" />
+	</Extension>
+</ExtensionModel>
